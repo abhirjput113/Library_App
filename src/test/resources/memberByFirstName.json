@@ -1,0 +1,57 @@
+[{
+        "memberId": "MEMBER_0003",
+        "memberFirstName": "Shubham",
+        "memberLastName": "Sable",
+        "memberAddress": "Amaravti",
+        "memberAadhaarNumber": "444754155755544",
+        "memberAge": 26,
+        "memberGender": "Male",
+        "contacts": [
+            {
+                "contactId": "CONTACT_0005",
+                "contactType": "primary",
+                "mobileNumber": "8888845478",
+                "emailId": "ssable@gmail.com"
+            },
+            {
+                "contactId": "CONTACT_0006",
+                "contactType": "secondary",
+                "mobileNumber": "7545896532",
+                "emailId": "shubhams@gmail.com"
+            }
+        ],
+        "memberCredentials": {
+            "credId": "CRED_0003",
+            "username": "shubams@1",
+            "password": "shubhmcjc22"
+        }
+    },
+    
+    {
+        "memberId": "MEMBER_0004",
+        "memberFirstName": "Shubhankar",
+        "memberLastName": "Thakre",
+        "memberAddress": "Akola",
+        "memberAadhaarNumber": "44155755544",
+        "memberAge": 29,
+        "memberGender": "Male",
+        "contacts": [
+            {
+                "contactId": "CONTACT_0007",
+                "contactType": "primary",
+                "mobileNumber": "8888844578",
+                "emailId": "ssw@gmail.com"
+            },
+            {
+                "contactId": "CONTACT_0008",
+                "contactType": "secondary",
+                "mobileNumber": "754514532",
+                "emailId": "shubhamw@gmail.com"
+            }
+        ],
+        "memberCredentials": {
+            "credId": "CRED_0004",
+            "username": "shubamw@1",
+            "password": "shubhmwcjc22"
+        }
+}]

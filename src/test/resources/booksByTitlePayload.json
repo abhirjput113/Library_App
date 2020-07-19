@@ -1,0 +1,18 @@
+[
+    {
+        "bookId": "BOOK_0001",
+        "bookTitle": "Applied Mechanics",
+        "bookSubTitle": "Fundamentals of mechanics",
+        "bookAuthor": "S. Radhakrishnan",
+        "bookPublisher": "Arihant",
+        "bookEdition": "3rd"
+    },
+    {
+        "bookId": "BOOK_0002",
+        "bookTitle": "Applied Chemistry",
+        "bookSubTitle": "Fundamentals of Organic chemistry",
+        "bookAuthor": "S. Krishnamurty",
+        "bookPublisher": "S.Chand",
+        "bookEdition": "2nd"
+    }
+]

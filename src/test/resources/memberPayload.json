@@ -1,0 +1,25 @@
+{
+	"memberId":"MEMBER_0002",
+   "memberFirstName": "Virendra",
+    "memberLastName": "Thakur",
+    "memberAddress": "Akola",
+    "memberAadhaarNumber": "977791644050",
+    "memberAge": 32,
+    "memberGender": "Male",
+    "contacts": [
+        {
+            "contactType": "primary",
+            "mobileNumber": "9130011231",
+            "emailId": "vkrajput1706@gmail.com"
+        },
+        {
+            "contactType": "secondary",
+            "mobileNumber": "7767015674",
+            "emailId": "rvirendra17@gmail.com"
+        }
+    ],
+    "memberCredentials": {
+        "username": "rvirendra",
+        "password": "akkirocks1$"
+    }
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "bookId": "BOOK_0001",
+        "bookTitle": "Applied Mechanics",
+        "bookSubTitle": "Fundamentals of mechanics",
+        "bookAuthor": "S. Radhakrishnan",
+        "bookPublisher": "Arihant",
+        "bookEdition": "3rd"
+    },
+    {
+        "bookId": "BOOK_0002",
+        "bookTitle": "Applied Chemistry",
+        "bookSubTitle": "Fundamentals of Organic chemistry",
+        "bookAuthor": "S. Krishnamurty",
+        "bookPublisher": "S.Chand",
+        "bookEdition": "2nd"
+    },
+    {
+        "bookId": "BOOK_0003",
+        "bookTitle": "Physics-I",
+        "bookSubTitle": "Fundamentals of Physics",
+        "bookAuthor": "Ramesh Babu",
+        "bookPublisher": "Delhi Publlications",
+        "bookEdition": "4th"
+    },
+    {
+        "bookId": "BOOK_0004",
+        "bookTitle": "Matlab -An Engineering Approach",
+        "bookSubTitle": "Best Practices using MATLAB",
+        "bookAuthor": "D.Roy Chowdhary",
+        "bookPublisher": "Krishna Publlications",
+        "bookEdition": "2nd"
+    }
+]
