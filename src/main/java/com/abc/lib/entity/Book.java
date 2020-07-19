@@ -5,10 +5,13 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.Parameter;
 
+import com.abc.lib.constants.ValidationConstant;
 import com.abc.lib.utils.CustomIdGenerator;
 
 /*
@@ -22,12 +25,18 @@ public class Book {
 			@Parameter(name = CustomIdGenerator.INCREMENT_PARAM, value = "1"),
 			@Parameter(name = CustomIdGenerator.VALUE_PREFIX_PARAMETER, value = "BOOK_"),
 			@Parameter(name = CustomIdGenerator.NUMBER_FORMAT_PARAMETER, value = "%04d") })
-	@Column(name="book_id",updatable=false,nullable=false)
+	@Column(name = "book_id", updatable = false, nullable = false)
 	private String bookId;
+
+	@NotBlank(message = ValidationConstant.Validation_BookTitle_Message)
 	private String bookTitle;
-	private String bookSubTitle; 
+	@NotNull(message = ValidationConstant.Validation_BookSubTitle_Message)
+	private String bookSubTitle;
+	@NotBlank(message = ValidationConstant.Validation_BookAuthor_Message)
 	private String bookAuthor;
+	@NotBlank(message = ValidationConstant.Validation_BookPublisher_Message)
 	private String bookPublisher;
+	@NotBlank(message = ValidationConstant.Validation_BookEdition_Message)
 	private String bookEdition;
 
 	public String getBookId() {
