@@ -17,7 +17,7 @@ public class CustomExceptionHandler {
 
 		ErrorResponse errorResponse = new ErrorResponse(type, status, title, message, uri);
 		return errorResponse;
-	}
+	} 
 
 	@ExceptionHandler
 	private ResponseEntity<ErrorResponse> handleBookNotFoundException(BookNotFoundException bnfe, WebRequest request) {
